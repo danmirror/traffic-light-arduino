@@ -189,7 +189,7 @@ void loop() {
       // HIGH = menyalakan lampu
       
       digitalWrite(lampu_1_hijau,LOW);
-      digitalWrite(lampu_3_merah,LOW);
+      digitalWrite(lampu_2_merah,LOW);
       
       digitalWrite(lampu_2_hijau,HIGH);
       digitalWrite(lampu_3_merah,HIGH);
@@ -210,6 +210,7 @@ void loop() {
      
       
       if(time_1_k == 0){
+        digitalWrite(lampu_1_kuning,LOW);
         digitalWrite(lampu_1_merah,HIGH);  
   
         Serial.print("\t merah 1 : ");
