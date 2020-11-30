@@ -1,6 +1,5 @@
 # traffic light arduino
-> traffic light is using 4 panel and every panel using 3 lamp and every red lamp is on alternately. this simulation just uses  led and you can use anything what you want
-
+> The traffic light uses 4 panels and each panel uses 3 lights and each red light turns on alternately. This simulation uses only leds and you can use whatever you want
 > ## related
 - [x] arduino uno
 - [x] ide arduino
